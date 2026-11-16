@@ -3,9 +3,9 @@
 Short description of the problem.
 Tag the Github issue here if relevant.
 
-Describe in a paragraoh which areas this touches — frontend, backend/API, database, CI, tooling.
+Describe in a paragraph which areas this touches — API, Docker, CI, docs, tooling.
 
-Short sentence on what size is this change? Small change (0-50 LOC), Medium change (50-250 LOC), size-l (250-800 line change), size-xl (800+ line change).
+Short sentence on what size is this change? Small (0-50 lines), Medium (50-250 lines), Large (250-800 lines), Extra large (800+ lines).
 
 ## Fix
 
@@ -17,6 +17,6 @@ Any evidence, screenshots, or recordings. If making frontend UI changes, attach 
 
 ## Checklist
 
-- [ ] Added unit tests and passing
-- [ ] Code has been through local pipeline and everything builds, lints, formats and type checks without errors or warning
+- [ ] Added or updated unit tests, when the change includes code
+- [ ] Ran the local pipeline when it exists, and lint, format, typecheck, test, and build finished without errors or warnings
 - [ ] Code has been reviewed by a human if the size is medium or above
