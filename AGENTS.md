@@ -4,7 +4,16 @@ Interact with the proton drive CLI safely through a guarded API. Gate access for
 
 ## Useful Commands
 
-No commands yet - to be filled in as project builds.
+From the repository root:
+
+- `npm run check` — full local pipeline (format check, lint, typecheck, unit tests, e2e tests, build)
+- `npm run lint` — ESLint
+- `npm run format` — Prettier write
+- `npm run format:check` — Prettier check (CI)
+- `npm run typecheck` — TypeScript without emit (src and tests)
+- `npm run test` — Vitest unit tests (`tests/unit`)
+- `npm run test:e2e` — Vitest e2e tests (`tests/e2e`)
+- `npm run build` — compile `src` to `dist`
 
 ## Code rules
 
